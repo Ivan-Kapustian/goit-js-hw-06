@@ -1,6 +1,6 @@
 let nameInput = document.querySelector("#name-input");
 let nameOutput = document.querySelector("#name-output");
-nameInput.addEventListener("change", naming);
+nameInput.addEventListener("input", naming);
 
 function naming() {
   let defaultValue = nameOutput.textContent;
